@@ -1,4 +1,5 @@
- Developed a feature-rich Q&A platform similar to Stack Overflow using the MERN stack (MongoDB, Express.js, React.js, Node.js)
+# `Stack overflow clone using MERN stack`
+* Developed a feature-rich Q&A platform similar to Stack Overflow using the MERN stack (MongoDB, Express.js, React.js, Node.js)
 * Developed a responsive platform accross all devices including mobiles & tablets.
 * Implemented secure user authentication and authorization with sign-up, login, password management, and JWT-based tokens.
 * Enabled extensive user interaction with question asking, editing, deletion, voting, answering, and profile management.
