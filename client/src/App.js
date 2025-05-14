@@ -1,6 +1,6 @@
-import { useEffect, useLayoutEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Route, Routes, json } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import './App.css';
 import { fetchAllQuestion } from './store/slices/questionSlice';
@@ -116,7 +116,7 @@ function App() {
       <div className={`app theme-app-${theme}`} >
         <Routes>
 
-          <Route to='/' element={<Navbar toggleTheme={changeToggleTheme} />}>
+          <Route path='/' element={<Navbar toggleTheme={changeToggleTheme} />}>
             <Route path='/' index element={<Home />} />
             <Route path='/auth' element={<Auth />} />
             <Route path='/tags' element={<Tags />} />
