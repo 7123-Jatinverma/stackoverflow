@@ -35,8 +35,12 @@ app.use('/', (err, req, res, next) => {
 
 dbConnect();
 
-app.listen(PORT, () => {
-    console.log("server is running on port:", PORT)
-})
+if (process.env.VERCEL) {
+    // Do not listen when deployed on Vercel serverless functions
+} else {
+    app.listen(PORT, () => {
+        console.log("server is running on port:", PORT)
+    })
+}
 
 module.exports = app;
