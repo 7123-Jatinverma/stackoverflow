@@ -12,10 +12,10 @@
 }
 
 .widget h4 {
-    background-color: #fbf3df;
+    background-color: #60a1b4c2;
     margin: 0%;
     padding: 15px;
-    border: solid 1px #f1e5bc;
+    border: solid 1px #60a1b4c2;
 }
 
 .widget h4:nth-child(1) {
@@ -24,9 +24,9 @@
 }
 
 .widget .box {
-    background-color: #fdf7e2;
+    background-color: #60a1b4c2;
     padding: 15px;
-    border: solid 1px #f1e5bc;
+    border: solid 1px #60a1b4c2;
 }
 
 .widget .box:nth-child(6) {
@@ -61,8 +61,8 @@
 .widget-tags h3 {
     margin: 0%;
     padding: 15px;
-    background-color: #f8f9f9;
-    border: solid 1px #e3e6e8;
+    background-color: #60a1b4c2;
+    border: solid 1px #60a1b4c2;
 }
 
 .widget-tags-div {

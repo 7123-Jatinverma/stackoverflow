@@ -8,7 +8,7 @@ import { MdNightlight, MdOutlineWbSunny } from "react-icons/md";
 import './Navbar.css'
 import Avatar from "../avatar/Avatar";
 import Button from "../button/Button";
-import logo from '../../assets/stackOverflow(logo).png'
+import logo from '../../assets/codecrowd(logo).png'
 import { logout } from "../../store/slices/authSlice";
 import { setCurrentUser } from "../../store/slices/currentUserSlice";
 import { setMenuBar } from "../../store/slices/menuBar";
