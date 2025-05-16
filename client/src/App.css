@@ -64,7 +64,7 @@
     }
 
     .display-question-container {
-        background-color: #d8d3c1;
+        background-color: #84a1aac2;
         border: none;
     }
 
@@ -89,7 +89,7 @@
     background-color: #323232 !important;
 
     .nav-btn {
-        color: rgb(235, 223, 223);
+        color: #90cadbc2;
 
         &:hover {
             color: rgb(69, 69, 69)
@@ -116,10 +116,10 @@
         background-color: #3f3f3f;
         border: none;
 
-        .display-question-container {
-            background-color: #c6b472;
-            border: none;
-        }
+    .display-question-container {
+        background-color: #60a1b4c2;
+        border: none;
+    }
 
         .main-bar-header {
             color: white;
@@ -131,16 +131,16 @@
 
         .widget h4,
         .widget .box {
-            background-color: #d6c68b;
-            border: #d6c68b;
+            background-color: #60a1b4c2;
+            border: #60a1b4c2;
         }
     }
 
     .left-sidebar {
-        color: rgb(213, 213, 213);
+        color: #a1c6d2c2;
 
         .side-nav a {
-            color: rgb(213, 213, 213);
+            color: #bad0d7c2;
 
             &:hover {
                 color: black;
